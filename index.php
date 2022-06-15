@@ -24,8 +24,8 @@
         
         <div class="collapse navbar-collapse justify-content-md-end" id="list">
             
-            <ul class="navbar-nav">
-                <li class="nav-item dropdown">
+            <ul class="navbar-nav flex-row pt-2 py-md-0">
+                <li class="nav-item dropdown col-6 col-md-auto">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         My Account
                     </a>
@@ -34,7 +34,7 @@
                         <li><a class="dropdown-item" href="signup.php">SignUp Account</a></li>
                     </ul>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown col-4 col-md-auto">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Help
                     </a>
@@ -44,7 +44,7 @@
                         <li><a class="dropdown-item" href="help.php">Something esle</a></li>
                     </ul>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item col-2 col-md-auto">
                     <a class="nav-link" href="cart.php">Cart</a>
                 </li>
             </ul>   
@@ -80,16 +80,31 @@
                     </table>
                 </div>
             </div>
-            <div class="col-md-10">
+            <div class="col-md-10" >
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" style="height: 400px">
+                    <div class="carousel-item active">
+                    <img src="./img/sale1.jpg" class="d-block w-100" alt="Sales one">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="./img/sale2.jpg" class="d-block w-100" alt="Sales two">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="./img/sale4.jpg" class="d-block w-100" alt="Sales three">
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!-- <div class="col-md-10">
                 <div class="card" style="background: url('./img/sale1.jpg') no-repeat center center/cover; height: 400px;">
                 
-                    <!-- <div class="card-body">
+                    <div class="card-body">
                         <h5 class="card-title">Special title treatment</h5>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                         <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div> -->
+                    </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <!-- ROW 2 -->
         <div class="row p-4">
