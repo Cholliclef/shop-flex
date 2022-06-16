@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>AboutUs</title>
+    <title>Shopflex</title>
 </head>
 <body>
-<!-- NAVBAR -->
-<nav class="navbar navbar-expand-md navbar-dark bg-primary">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.php" style="color: white;"><h1><i class="fas fa-shopping-cart"></i>Shop<span style="color: red">flex</span></h1></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#list" aria-controls="list" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,8 +52,54 @@
         </div>
     </div>
 </nav>
-<!-- FOOTER -->
-<div class="container-fluid bg-primary">
+    <!-- INDEX CONTENT LAYER 1 -->
+    <div class="container-fluid bg-default h-25 py-4">
+        <!-- ROW 1 -->
+        <div class="row p-2">
+            <div class="col"><h1 class="text-center">Checkout</h1></div>
+        </div>
+        
+        <div class="col-md-8 offset-md-2 border rounded">
+        <div class="py-3 mx-4">
+                    <h2>Your Order</h2><hr>
+                    <div class="col-md-auto">
+                        <table class="table">
+                            <tr>
+                            <th>Product</th>
+                            <th style="text-align: right">Subtotal</th>
+                            </tr>
+                            <tr>
+                                <td>Apple Mac</td>
+                                <td style="text-align: right">&#8358; 543,000</td>
+                            </tr>
+                            <tr>
+                                <td>Flat screen TV</td>
+                                <td style="text-align: right">&#8358; 203,000</td>
+                            </tr>
+                            <tr>
+                                <th>Subtotal</th>
+                                <td style="text-align: right">&#8358; 746,000</td>
+                            </tr>
+                            <tr>
+                                <th>Total</th>
+                                <th style="text-align: right">&#8358; 746,000</th>
+                            </tr>
+                            <!-- <tr>
+                                <td ><a href="checkout.php" class="btn btn-primary ">Place Your Order</a></td>
+                            </tr> -->
+                        </table>
+                        <div class="row">
+                            <div class="col-md-auto">
+                            <a href="checkout.php" class="btn btn-primary ">Place Your Order</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        
+    </div>
+      <!-- FOOTER -->
+      <div class="container-fluid bg-primary">
         <div class="row p-3 ">
             <div class="col">
                 <h5 style="text-align:left; color: white">My Account</h5>

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Shopflex</title>
@@ -12,12 +13,12 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-md navbar-dark bg-primary">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.php" style="color: white;"><h1><i class="bi bi-search"></i>Shop<span style="color: red">flex</span></h1></a>
+        <a class="navbar-brand" href="index.php" style="color: white;"><h1><i class="fas fa-shopping-cart"></i>Shop<span style="color: red">flex</span></h1></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#list" aria-controls="list" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <form class="d-flex col-md-8">
+        <form class="d-flex col-md-7">
             <input class="form-control me-2" type="search" placeholder="Search a product" aria-label="Search">
             <button class="btn btn-outline-info" type="submit">Search</button>
         </form>
@@ -27,7 +28,7 @@
             <ul class="navbar-nav flex-row pt-2 py-md-0">
                 <li class="nav-item dropdown col-6 col-md-auto">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        My Account
+                    <i class="fas fa-user "></i> My Account
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="login.php">Login Account</a></li>
@@ -36,7 +37,7 @@
                 </li>
                 <li class="nav-item dropdown col-4 col-md-auto">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Help
+                    <i class="fas fa-question-circle "></i> Help
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="about.php">AboutUs</a></li>
@@ -45,7 +46,7 @@
                     </ul>
                 </li>
                 <li class="nav-item col-2 col-md-auto">
-                    <a class="nav-link" href="cart.php">Cart</a>
+                    <a class="nav-link" href="cart.php"><i class="fas fa-shopping-cart "></i> Cart</a>
                 </li>
             </ul>   
         </div>
@@ -81,19 +82,19 @@
                 </div>
             </div>
             <div class="col-md-10" >
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner" style="height: 400px">
-                    <div class="carousel-item active">
-                    <img src="./img/sale1.jpg" class="d-block w-100" alt="Sales one">
-                    </div>
-                    <div class="carousel-item">
-                    <img src="./img/sale2.jpg" class="d-block w-100" alt="Sales two">
-                    </div>
-                    <div class="carousel-item">
-                    <img src="./img/sale4.jpg" class="d-block w-100" alt="Sales three">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner" style="height: 350px">
+                        <div class="carousel-item active">
+                        <img src="./img/sale1.jpg" class="d-block w-100 " alt="Sales one">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="./img/sale2.jpg" class="d-block w-100 " alt="Sales two">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="./img/sale4.jpg" class="d-block w-100" alt="Sales three">
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
             <!-- <div class="col-md-10">
                 <div class="card" style="background: url('./img/sale1.jpg') no-repeat center center/cover; height: 400px;">
@@ -114,9 +115,13 @@
                     <tr>
                         <td>
                             <a href="#" class="text-decoration-none" style="color: black">
-                                <div class="card" style="background: url('./img/game2.jpg') no-repeat center center/cover; height: 200px;"></div>
+                                <div class="card">
+                                    <img src="./img/game2.jpg" alt="1" class="img-fluid" style="height: 200px">
+                                </div>
+                            </a>
                                 <h5>PS2  <br><span style="color: red"><b>&#8358; 70,000</b></span></h5>
-                            </a>
+                            
+                            <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
                     </tr>
                 </table> 
@@ -126,9 +131,13 @@
                     <tr>
                         <td>
                             <a href="#" class="text-decoration-none" style="color: black">
-                                <div class="card" style="background: url('./img/comp5.jpg') no-repeat center center/cover; height: 200px;"></div>
-                                <h5>Apple  <br><span style="color: red"><b>&#8358; 630,000</b></span></h5>
+                            <div class="card ">
+                                    <img src="./img/comp5.jpg" alt="1" class="img-fluid" style="height: 200px">
+                                </div>
                             </a>
+                                <h5>Apple  <br><span style="color: red"><b>&#8358;630,000</b></span></h5>
+                                <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+                            
                         </td>
                     </tr>
                 </table> 
@@ -138,9 +147,12 @@
                     <tr>
                         <td>
                             <a href="#" class="text-decoration-none" style="color: black">
-                                <div class="card" style="background: url('./img/elec14.jpg') no-repeat center center/cover; height: 200px;"></div>
+                            <div class="card ">
+                                    <img src="./img/elec14.jpg" alt="1" class="img-fluid" style="height: 200px">
+                                </div>
                                 <h5>TV Flat Screen  <br><span style="color: red"><b>&#8358; 501,000</b></span></h5>
                             </a>
+                            <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
                     </tr>
                 </table> 
@@ -150,9 +162,12 @@
                     <tr>
                         <td>
                             <a href="#" class="text-decoration-none" style="color: black">
-                                <div class="card" style="background: url('./img/game3.jpg') no-repeat center center/cover; height: 200px;"></div>
+                            <div class="card ">
+                                    <img src="./img/game3.jpg" alt="1" class="img-fluid" style="height: 200px">
+                                </div>
                                 <h5>X-Box  <br><span style="color: red"><b>&#8358; 830,000</b></span></h5>
                             </a>
+                            <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
                     </tr>
                 </table> 
@@ -169,6 +184,7 @@
                                 <div class="card" style="background: url('./img/wears5.jpg') no-repeat center center/cover; height: 150px;"></div>
                                 <h5>Product <br><span style="color: red"><b>&#8358; 15,000</b></span></h5>
                             </a>
+                            <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
                     </tr>
                 </table> 
@@ -181,6 +197,7 @@
                                 <div class="card" style="background: url('./img/phone1.jpg') no-repeat center center/cover; height: 150px;"></div>
                                 <h5>Product <br><span style="color: red"><b>&#8358; 235,000</b></span></h5>
                             </a>
+                            <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
                     </tr>
                 </table> 
@@ -193,6 +210,7 @@
                                 <div class="card" style="background: url('./img/elec15.jpg') no-repeat center center/cover; height: 150px;"></div>
                                 <h5>Product <br><span style="color: red"><b>&#8358; 105,000</b></span></h5>
                             </a>
+                            <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
                     </tr>
                 </table> 
@@ -205,6 +223,7 @@
                                 <div class="card" style="background: url('./img/shoe1.jpg') no-repeat center center/cover; height: 150px;"></div>
                                 <h5>Product <br><span style="color: red"><b>&#8358; 190,000</b></span></h5>
                             </a>
+                            <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
                     </tr>
                 </table> 
@@ -217,6 +236,7 @@
                                 <div class="card" style="background: url('./img/elec1.jpg') no-repeat center center/cover; height: 150px;"></div>
                                 <h5>Product <br><span style="color: red"><b>&#8358; 20,000</b></span></h5>
                             </a>
+                            <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
                     </tr>
                 </table> 
@@ -229,6 +249,7 @@
                                 <div class="card" style="background: url('./img/elec17.jpg') no-repeat center center/cover; height: 150px;"></div>
                                 <h5>Product <br><span style="color: red"><b>&#8358; 10,000</b></span></h5>
                             </a>
+                            <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
                     </tr>
                 </table> 
@@ -241,6 +262,7 @@
                                 <div class="card" style="background: url('./img/auto3.jpg') no-repeat center center/cover; height: 150px;"></div>
                                 <h5>Product <br><span style="color: red"><b>&#8358; 35,000</b></span></h5>
                             </a>
+                            <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
                     </tr>
                 </table> 
@@ -253,6 +275,7 @@
                                 <div class="card" style="background: url('./img/comp6.jpg') no-repeat center center/cover; height: 150px;"></div>
                                 <h5>Product <br><span style="color: red"><b>&#8358; 543,000</b></span></h5>
                             </a>
+                            <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
                     </tr>
                 </table> 
@@ -265,6 +288,7 @@
                                 <div class="card" style="background: url('./img/elec2.jpg') no-repeat center center/cover; height: 150px;"></div>
                                 <h5>Product <br><span style="color: red"><b>&#8358; 67,000</b></span></h5>
                             </a>
+                            <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
                     </tr>
                 </table> 
@@ -277,6 +301,7 @@
                                 <div class="card" style="background: url('./img/game1.jpg') no-repeat center center/cover; height: 150px;"></div>
                                 <h5>Product <br><span style="color: red"><b>&#8358; 70,000</b></span></h5>
                             </a>
+                            <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
                     </tr>
                 </table> 
@@ -289,6 +314,7 @@
                                 <div class="card" style="background: url('./img/wears2.jpg') no-repeat center center/cover; height: 150px;"></div>
                                 <h5>Product <br><span style="color: red"><b>&#8358; 12,000</b></span></h5>
                             </a>
+                            <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
                     </tr>
                 </table> 
@@ -301,6 +327,7 @@
                                 <div class="card" style="background: url('./img/elec11.jpg') no-repeat center center/cover; height: 150px;"></div>
                                 <h5>Product <br><span style="color: red"><b>&#8358; 30,000</b></span></h5>
                             </a>
+                            <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
                     </tr>
                 </table> 

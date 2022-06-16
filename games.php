@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>Computers</title>
+    <title>Games</title>
 </head>
 <body>
     <!-- NAVBAR -->
@@ -60,13 +60,13 @@
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner" style="height: 350px">
                         <div class="carousel-item active">
-                        <img src="./img/sale10.jpg" class="d-block w-100" alt="Sales one">
+                        <img src="./img/sale5.jpg" class="d-block w-100" alt="Sales one">
                         </div>
                         <div class="carousel-item">
-                        <img src="./img/sale11.jpg" class="d-block w-100" alt="Sales two">
+                        <img src="./img/sale6.jpg" class="d-block w-100" alt="Sales two">
                         </div>
                         <div class="carousel-item">
-                        <img src="./img/sale15.jpg" class="d-block w-100" alt="Sales three">
+                        <img src="./img/sale12.jpg" class="d-block w-100" alt="Sales three">
                         </div>
                     </div>
                 </div>
@@ -74,14 +74,14 @@
         </div>
         <!-- ROW 3 -->
         <div class="row p-4">
-            <h2 style="text-align: center"><b>Most moving computer sales</b></h2>
+            <h2 style="text-align: center"><b>Most moving game sales</b></h2>
             <div class="col-sm-2">
                 <table class="table table-hover">
                     <tr>
                         <td>
                             <a href="#" class="text-decoration-none" style="color: black">
-                                <div class="card" style="background: url('./img/comp5.jpg') no-repeat center center/cover; height: 150px;"></div>
-                                <h5>System <br><span style="color: red"><b>&#8358; 500,000</b></span></h5>
+                                <div class="card" style="background: url('./img/game5.jpg') no-repeat center center/cover; height: 150px;"></div>
+                                <h5>Spons game <br><span style="color: red"><b>&#8358; 15,000</b></span></h5>
                             </a>
                             <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
@@ -93,8 +93,8 @@
                     <tr>
                         <td>
                             <a href="#" class="text-decoration-none" style="color: black">
-                                <div class="card" style="background: url('./img/comp6.jpg') no-repeat center center/cover; height: 150px;"></div>
-                                <h5>System <br><span style="color: red"><b>&#8358; 410,000</b></span></h5>
+                                <div class="card" style="background: url('./img/game6.jpg') no-repeat center center/cover; height: 150px;"></div>
+                                <h5>Spons game <br><span style="color: red"><b>&#8358; 15,000</b></span></h5>
                             </a>
                             <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
@@ -106,8 +106,8 @@
                     <tr>
                         <td>
                             <a href="#" class="text-decoration-none" style="color: black">
-                                <div class="card" style="background: url('./img/comp2.jpg') no-repeat center center/cover; height: 150px;"></div>
-                                <h5>System <br><span style="color: red"><b>&#8358; 200,000</b></span></h5>
+                                <div class="card" style="background: url('./img/game2.jpg') no-repeat center center/cover; height: 150px;"></div>
+                                <h5>Spons game <br><span style="color: red"><b>&#8358; 15,000</b></span></h5>
                             </a>
                             <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
@@ -119,8 +119,8 @@
                     <tr>
                         <td>
                             <a href="#" class="text-decoration-none" style="color: black">
-                                <div class="card" style="background: url('./img/comp1.jpg') no-repeat center center/cover; height: 150px;"></div>
-                                <h5>System <br><span style="color: red"><b>&#8358; 430,000</b></span></h5>
+                                <div class="card" style="background: url('./img/game1.jpg') no-repeat center center/cover; height: 150px;"></div>
+                                <h5>Spons game <br><span style="color: red"><b>&#8358; 15,000</b></span></h5>
                             </a>
                             <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
@@ -132,8 +132,8 @@
                     <tr>
                         <td>
                             <a href="#" class="text-decoration-none" style="color: black">
-                                <div class="card" style="background: url('./img/comp3.jpg') no-repeat center center/cover; height: 150px;"></div>
-                                <h5>System <br><span style="color: red"><b>&#8358; 310,000</b></span></h5>
+                                <div class="card" style="background: url('./img/game3.jpg') no-repeat center center/cover; height: 150px;"></div>
+                                <h5>Spons game <br><span style="color: red"><b>&#8358; 15,000</b></span></h5>
                             </a>
                             <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
@@ -145,8 +145,8 @@
                     <tr>
                         <td>
                             <a href="#" class="text-decoration-none" style="color: black">
-                                <div class="card" style="background: url('./img/comp4.jpg') no-repeat center center/cover; height: 150px;"></div>
-                                <h5>System <br><span style="color: red"><b>&#8358; 100,000</b></span></h5>
+                                <div class="card" style="background: url('./img/game4.jpg') no-repeat center center/cover; height: 150px;"></div>
+                                <h5>Spons game <br><span style="color: red"><b>&#8358; 15,000</b></span></h5>
                             </a>
                             <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
@@ -158,8 +158,8 @@
                     <tr>
                         <td>
                             <a href="#" class="text-decoration-none" style="color: black">
-                                <div class="card" style="background: url('./img/comp7.jpg') no-repeat center center/cover; height: 150px;"></div>
-                                <h5>System <br><span style="color: red"><b>&#8358; 420,000</b></span></h5>
+                                <div class="card" style="background: url('./img/game7.jpg') no-repeat center center/cover; height: 150px;"></div>
+                                <h5>Spons game <br><span style="color: red"><b>&#8358; 15,000</b></span></h5>
                             </a>
                             <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
@@ -171,8 +171,8 @@
                     <tr>
                         <td>
                             <a href="#" class="text-decoration-none" style="color: black">
-                                <div class="card" style="background: url('./img/comp8.jpg') no-repeat center center/cover; height: 150px;"></div>
-                                <h5>System <br><span style="color: red"><b>&#8358; 800,000</b></span></h5>
+                                <div class="card" style="background: url('./img/game2.jpg') no-repeat center center/cover; height: 150px;"></div>
+                                <h5>Spons game <br><span style="color: red"><b>&#8358; 15,000</b></span></h5>
                             </a>
                             <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
@@ -184,8 +184,8 @@
                     <tr>
                         <td>
                             <a href="#" class="text-decoration-none" style="color: black">
-                                <div class="card" style="background: url('./img/comp6.jpg') no-repeat center center/cover; height: 150px;"></div>
-                                <h5>System <br><span style="color: red"><b>&#8358; 550,000</b></span></h5>
+                                <div class="card" style="background: url('./img/game6.jpg') no-repeat center center/cover; height: 150px;"></div>
+                                <h5>Spons game <br><span style="color: red"><b>&#8358; 15,000</b></span></h5>
                             </a>
                             <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
@@ -197,8 +197,8 @@
                     <tr>
                         <td>
                             <a href="#" class="text-decoration-none" style="color: black">
-                                <div class="card" style="background: url('./img/comp8.jpg') no-repeat center center/cover; height: 150px;"></div>
-                                <h5>System <br><span style="color: red"><b>&#8358; 432,000</b></span></h5>
+                                <div class="card" style="background: url('./img/game8.jpg') no-repeat center center/cover; height: 150px;"></div>
+                                <h5>Spons game <br><span style="color: red"><b>&#8358; 15,000</b></span></h5>
                             </a>
                             <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
@@ -210,8 +210,8 @@
                     <tr>
                         <td>
                             <a href="#" class="text-decoration-none" style="color: black">
-                                <div class="card" style="background: url('./img/comp2.jpg') no-repeat center center/cover; height: 150px;"></div>
-                                <h5>System <br><span style="color: red"><b>&#8358; 378,000</b></span></h5>
+                                <div class="card" style="background: url('./img/game2.jpg') no-repeat center center/cover; height: 150px;"></div>
+                                <h5>Spons game <br><span style="color: red"><b>&#8358; 15,000</b></span></h5>
                             </a>
                             <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
@@ -223,10 +223,9 @@
                     <tr>
                         <td>
                             <a href="#" class="text-decoration-none" style="color: black">
-                                <div class="card" style="background: url('./img/comp1.jpg') no-repeat center center/cover; height: 150px;"></div>
-                                <h5>System <br><span style="color: red"><b>&#8358; 542,000</b></span></h5>
+                                <div class="card" style="background: url('./img/game1.jpg') no-repeat center center/cover; height: 150px;"></div>
+                                <h5>Spons game <br><span style="color: red"><b>&#8358; 15,000</b></span></h5>
                             </a>
-                            <button class="btn btn-outline-danger" type="submit">Add to Cart <i class="fas fa-shopping-cart"></i></button>
                         </td>
                     </tr>
                 </table> 
@@ -236,11 +235,11 @@
         <!-- ROW 4 -->
         <div class="row p-4">
             <div class="col-md-6">
-                <div class="card" style="background: url('./img/sale7.jpg') no-repeat center center/cover; height: 200px;">
+                <div class="card" style="background: url('./img/sale6.jpg') no-repeat center center/cover; height: 200px;">
                 </div>
             </div>
             <div class="col-md-6">
-                    <div class="card" style="background: url('./img/sale12.jpg') no-repeat center center/cover; height: 200px;">
+                    <div class="card" style="background: url('./img/sale10.jpg') no-repeat center center/cover; height: 200px;">
                         <!-- <div class="card-body">
                             <h5 class="card-title">Special title treatment</h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
